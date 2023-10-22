@@ -1,0 +1,120 @@
+body {
+  background-color:    #abc4b3;
+
+}
+h1 {
+  background-color: black;
+  color: white;
+  border-bottom: black;
+  width: auto;
+  height: 1em;
+  font-size: 40px;
+  text-align: left;
+}
+footer {
+  font-size: 18px;
+  border-top: 3px solid black;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+#element{
+    position: relative;
+    height:250px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#element img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+#element img.top:hover {
+    opacity:0;
+}
+nav {text-align: center; font-size: 20px; padding-top: 10px; margin: 0.5em;
+color: black; float: left; width: 20%;
+min-height:1600px;
+
+
+
+
+}
+nav ul li a:hover, nav ul li a:focus {
+  text-align: center;
+  color:   #9fb2b5;
+  font-weight: bold;
+
+}
+li a:visited {
+  color: #3d818b;
+}
+li a:active {
+  color:#DAF7A6;
+}
+li {
+  border: 1px solid black;
+  margin: 10px;
+  width: 75%;
+  background-color: black;
+  list-style-type: none;
+
+}
+
+
+main {
+width: 60%;
+float: left;
+margin: inherit;
+
+
+}
+  #element {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  margin-right: 2em;
+
+
+}
+form {
+  text-align: center;
+}
+footer {
+  clear: both;
+
+}
+h2 {
+  font-size: 48px;
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-family: fantasy;
+
+}
+.fall {
+  font-size: 20px;
+}
+h2, p {
+  text-align: left;
+}
+.differ {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.sumthin{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+footer ul a {
+  padding: 3em;
+}
